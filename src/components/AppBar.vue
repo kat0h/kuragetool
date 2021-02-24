@@ -46,7 +46,7 @@ export default {
     drawer: false,
     items: [
       { title: 'アプリ一覧', icon: 'mdi-apps', link: '/'},
-      { title: 'このサイトについて', icon: 'mdi-information', link: './About'},
+      { title: 'このサイトについて', icon: 'mdi-information', link: '/about'},
     ]
   }),
 };

@@ -1,16 +1,19 @@
 <template>
   <v-app>
-    <Wrapper></Wrapper>
+    <AppBar></AppBar>
+    <v-main>
+      <router-view/>
+    </v-main>
   </v-app>
 </template>
 
 <script>
-import Wrapper from './components/Wrapper.vue'
+import AppBar from './components/AppBar.vue'
 export default {
   name: 'App',
 
   components: {
-    Wrapper,
+    AppBar,
   },
 
   data: () => ({
