@@ -4,8 +4,11 @@
     <v-navigation-drawer
     app v-model="drawer" temporary>
       <v-list-item>
+        <v-list-item-icon>
+          <v-icon color="purple">mdi-jellyfish</v-icon>
+        </v-list-item-icon>
         <v-list-item-title class="title">
-          🐦はとツール
+          くらげツール
         </v-list-item-title>
       </v-list-item>
       <v-divider />
@@ -13,7 +16,9 @@
         <v-list-item
           v-for="item in items"
           :key="item.title"
-        link>
+          link
+          :href="item.link"
+        >
           <v-list-item-icon>
             <v-icon>{{ item.icon }}</v-icon>
           </v-list-item-icon>
@@ -40,8 +45,8 @@ export default {
   data: () => ({
     drawer: false,
     items: [
-      { title: 'アプリ一覧', icon: 'mdi-apps'},
-      { title: 'このサイトについて', icon: 'mdi-information'},
+      { title: 'アプリ一覧', icon: 'mdi-apps', link: '/'},
+      { title: 'このサイトについて', icon: 'mdi-information', link: './About'},
     ]
   }),
 };
