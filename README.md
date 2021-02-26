@@ -1,24 +1,24 @@
 # hatotool
 
-## Project setup
-```
-npm install
-```
+# ToDo
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+- 大文字メーカー
+- 日付計算
+- ローマ数字変換
+- タイマー
+- ストップウォッチ
+- 合計計算
+- アイコン加工
+- Youtubeループ
+- 点字AA
+- 電気代計算
+- 〜までの日数
+- QRコード作成
+- QRコード読み取り
+- 文字数計測
+- 突然の死
+- 壁紙加工
+- AmazonURLクリーナー
+- カラーパレット
+- 右寄せツール
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
