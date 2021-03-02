@@ -17,6 +17,7 @@ export default {
   name: 'TopPage',
   data: () => ({
       appcards: [
+        { title: "文字数計測", image: require("@/assets/app_icons/word_count.png"), link: "/app/wordcount"},
         { title: "太文字メーカー", image: require("@/assets/app_icons/hutomoji_maker.png"), link: "/app/hutomoji"},
         { title: "日付計算", image: require("@/assets/app_icons/date_calc.png"), link: ""},
         { title: "ローマ数字変換", image: require("@/assets/app_icons/roma.png"), link: ""},
@@ -30,7 +31,6 @@ export default {
         { title: "〜までの日数", image: require("@/assets/app_icons/date_hoge.png"), link: ""},
         { title: "QRコード作成", image: require("@/assets/app_icons/make_qr.png"), link: ""},
         { title: "QRコード読み取り", image: require("@/assets/app_icons/read_qr.png"), link: ""},
-        { title: "文字数計測", image: require("@/assets/app_icons/word_count.png"), link: ""},
         { title: "突然の死", image: require("@/assets/app_icons/suddenly_death.png"), link: ""},
         { title: "壁紙加工", image: require("@/assets/app_icons/wallpaper_manufact.png"), link: ""},
         { title: "AmazonURLクリーナー", image: require("@/assets/app_icons/amazon_url_cleaner.png"), link: ""},
