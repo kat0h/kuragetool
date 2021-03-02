@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="text-align: center">
     <h1>
     文字数カウント
     </h1>
@@ -23,9 +23,3 @@ export default {
 };
 
 </script>
-
-<style>
-div {
-  text-align: center;
-}
-</style>
