@@ -31,6 +31,7 @@
     <!-- 上部のバー -->
     <v-app-bar app>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
+      <v-toolbar-title>くらげツール</v-toolbar-title>
     </v-app-bar>
   </v-container>
 </template>
