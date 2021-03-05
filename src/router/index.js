@@ -10,12 +10,13 @@ import AppHutomoji from '@/components/apps/hutomoji.vue'
 Vue.use(Router);
 
 export default new Router({
-  mode: "history",
-  routes: [
-    { path: '/', component: TopPage },
-    { path: '/about', component: About },
-    { path: '/app/wordcount', component: AppWordCount },
-    { path: '/app/hutomoji', component: AppHutomoji },
-  ]
+    mode: "history",
+    base: process.env.BASE_URL,
+    routes: [
+        { path: '/', component: TopPage },
+        { path: '/about', component: About },
+        { path: '/app/wordcount', component: AppWordCount },
+        { path: '/app/hutomoji', component: AppHutomoji },
+    ]
 })
 

@@ -1,5 +1,9 @@
 module.exports = {
-  transpileDependencies: [
-    'vuetify'
-  ]
+    transpileDependencies: [
+        'vuetify'
+    ],
+    publicPath: '/kuragetool/',
+    outputDir: 'dist',
+    filenameHashing: false,
+    productionSourceMap: false,
 }
