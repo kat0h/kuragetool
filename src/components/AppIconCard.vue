@@ -1,5 +1,5 @@
 <template>
-  <v-card outlined :href="link">
+  <v-card outlined :to="link">
     <v-avatar tile>
       <v-img :src="image"></v-img>
     </v-avatar>
