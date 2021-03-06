@@ -1,12 +1,16 @@
 <template>
   <div>
       <v-container>
-        <h2>アプリ一覧</h2>
-        <v-row dense>
-        <v-col cols="12" v-for="appcard in appcards" :key="appcard.title">
-            <app-icon-card :title="appcard.title" :image="appcard.image" :link="appcard.link"></app-icon-card>
-        </v-col>
-        </v-row>
+        <v-container>
+            <h3>アプリ一覧</h3>
+        </v-container>
+        <v-container>
+            <v-row dense>
+            <v-col cols="12" v-for="appcard in appcards" :key="appcard.title">
+                <app-icon-card :title="appcard.title" :image="appcard.image" :link="appcard.link"></app-icon-card>
+            </v-col>
+            </v-row>
+        </v-container>
       </v-container>
   </div>
 </template>

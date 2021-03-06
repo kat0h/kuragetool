@@ -1,8 +1,8 @@
 <template>
   <div style="text-align: center">
-    <h1>
+    <h2>
     文字数カウンター
-    </h1>
+    </h2>
     <v-container >
       <v-textarea
       filled

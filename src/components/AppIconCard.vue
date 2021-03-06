@@ -1,10 +1,12 @@
 <template>
-  <v-card outlined :to="link">
-    <v-avatar tile>
-      <v-img :src="image"></v-img>
-    </v-avatar>
-    {{ title }}
-  </v-card>
+    <v-card outlined :to="link">
+    <v-card-text>
+        <v-avatar tile>
+            <v-img :src="image"></v-img>
+        </v-avatar>
+        {{ title }}
+    </v-card-text>
+    </v-card>
 </template>
 
 <script>
