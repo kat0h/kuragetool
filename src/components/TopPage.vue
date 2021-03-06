@@ -23,6 +23,7 @@ export default {
   data: () => ({
       appcards: [
         { title: "文字数計測", image: require("@/assets/app_icons/word_count.png"), link: "/app/wordcount"},
+        { title: "AmazonURLクリーナー", image: require("@/assets/app_icons/amazon_url_cleaner.png"), link: "/app/amazonurl"},
         /* { title: "太文字メーカー", image: require("@/assets/app_icons/hutomoji_maker.png"), link: "/app/hutomoji"}, */
         /* { title: "日付計算", image: require("@/assets/app_icons/date_calc.png"), link: ""}, */
         /* { title: "ローマ数字変換", image: require("@/assets/app_icons/roma.png"), link: ""}, */
@@ -38,7 +39,6 @@ export default {
         /* { title: "QRコード読み取り", image: require("@/assets/app_icons/read_qr.png"), link: ""}, */
         /* { title: "突然の死", image: require("@/assets/app_icons/suddenly_death.png"), link: ""}, */
         /* { title: "壁紙加工", image: require("@/assets/app_icons/wallpaper_manufact.png"), link: ""}, */
-        /* { title: "AmazonURLクリーナー", image: require("@/assets/app_icons/amazon_url_cleaner.png"), link: ""}, */
         /* { title: "カラーパレット", image: require("@/assets/app_icons/color_palatte.png"), link: ""}, */
       ]
   }),
