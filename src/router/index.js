@@ -10,7 +10,6 @@ import AppHutomoji from '@/components/apps/hutomoji.vue'
 Vue.use(Router);
 
 export default new Router({
-    mode: "history",
     base: process.env.BASE_URL,
     routes: [
         { path: '/', component: TopPage },
