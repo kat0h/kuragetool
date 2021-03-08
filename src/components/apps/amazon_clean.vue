@@ -22,7 +22,7 @@ export default {
     }),
     methods: {
 cleanurl: function() {
-              return this.amazonurl.replace(/(https:\/\/.*?\/).*dp\/(.*?)\?.*/, function(){return arguments[1] + "dp/" + arguments[2]})
+              return this.amazonurl.replace(/(https:\/\/.*?\/).*(product|dp)\/(.*?)\?.*/, function(){return arguments[1] + "dp/" + arguments[3]})
           },
 copybtn: function() {
              var copyFrom = document.createElement("textarea");
