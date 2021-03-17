@@ -22,9 +22,9 @@ export default {
   name: 'TopPage',
   data: () => ({
       appcards: [
+        { title: "隠しtter", image: require("@/assets/app_icons/kakushitter.png"), link: "/app/kakushitter"},
         { title: "文字数計測", image: require("@/assets/app_icons/word_count.png"), link: "/app/wordcount"},
         { title: "AmazonURLクリーナー", image: require("@/assets/app_icons/amazon_url_cleaner.png"), link: "/app/amazonurl"},
-        { title: "隠しtter", image: require("@/assets/app_icons/kakushitter.png"), link: "/app/kakushitter"},
         /* { title: "太文字メーカー", image: require("@/assets/app_icons/hutomoji_maker.png"), link: "/app/hutomoji"}, */
         /* { title: "日付計算", image: require("@/assets/app_icons/date_calc.png"), link: ""}, */
         /* { title: "ローマ数字変換", image: require("@/assets/app_icons/roma.png"), link: ""}, */
